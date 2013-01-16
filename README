@@ -1,0 +1,18 @@
+Tetra Spot
+
+Tetra Spot je programska oprema, ki je bila razvita za potrebe spremljanja radijskih postaj v sistemu zvez TETRA. Kupec za 
+svoje delo na terenu uporablja Tetra mobilne postaje, ki pošiljajo različne podatke in statuse v bazno 
+postajo. Namen Tetra Spot programske opreme je zajem teh podatkov, zapis v podatkovno bazo (SQL), 
+časovno beleženje, administracija ter prikaz podatkov v razumljivi obliki. V ta namen je bila razvita spletna 
+aplikacija, ki omogoča prikaz lokacij Tetra radijskih postaj ter spreminjanje administrativnih podatkov le teh. 
+Aplikacija je optimizirana za povezavo z radijskimi postajami proizvajalca Sepura.
+
+Tetra Spot programska oprema obsega tri komponente in sicer: 
+• Servis, ki skrbi za zajem podatkov z bazne radijske postaje, kateri ostale postaje javljajo podatke o 
+lokacijah in statuse s terena ter zapis le teh v bazo podatkov, 
+• baza podatkov, 
+• spletna aplikacija za nadzor in administracijo izbranih postaj, ki so vključene v TETRA sistem zvez. 
+  
+Komponente so odvisne ena od druge. Lahko so vse tri nameščene na enem računalniku ali vsaka na 
+svojem. Potrebno je zagotoviti uspešno komunikacijo med komponentami (servis, baza, spletna aplikacija) 
+preko lokalnega omrežja ali interneta.
